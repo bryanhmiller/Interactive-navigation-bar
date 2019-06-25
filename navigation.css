@@ -1,3 +1,98 @@
+<<<<<<< HEAD
+/*# Interactive navigation bar
+## Instructions
+
+Create a navigation bar out of an unordered list element, and add the
+following interactivity.
+
+1. When the user hovers over one of the links, the color of the text should
+	change.
+2. When the user hovers over one of the links, the background color of the
+	element that contains the link should change.
+3. When the user clicks on one of the links, the element that contains the 
+	link should grow in size by 5px on the left and right.
+*/
+
+
+ul {
+	background: #eee;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	font-family: Verdana;
+	font-size: 1.5em;
+	width: 100%;
+	padding: 10px;
+	margin-top: -7px;
+	margin-left: -7px;
+	border-bottom: 4px solid #999;	
+}
+
+li {
+	background: white;
+	display: inline-flex;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+a {
+	text-decoration: none;
+}
+
+li:hover {
+	color: #fff;
+	background: #999;
+}
+
+li:active {
+	margin: 0 -10px;
+	padding: 10px 30px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+@media (max-width: 550px){
+
+	body {
+		background: #eee;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	ul {
+		flex-direction: column;
+		border-bottom: none;
+	}
+
+	li:active {
+		margin: 10px 0;
+		margin-left: 5px;
+		padding: 10px 25px;
+	}
+
+	li {
+		justify-content: space-around;
+		width: 150px;
+		margin: 10px 10px;
+	}
+
+}
+=======
 /*# Interactive navigation bar
 ## Instructions
 
@@ -73,3 +168,4 @@ li:active {
 		margin: 10px 10px;
 	}
 }
+>>>>>>> master
