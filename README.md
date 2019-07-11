@@ -1,7 +1,7 @@
-# Interactive-navigation HTML and CSS
-# Interactive navigation bar
 ![alt text](https://repository-images.githubusercontent.com/80643420/84a6b880-9921-11e9-809b-a83420f1abd0 "Map image for interactive navigation bar")
 
+# Interactive-navigation HTML and CSS
+# Interactive navigation bar
 
 ## Instructions
 
